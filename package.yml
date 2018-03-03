@@ -1,0 +1,13 @@
+name       : font-awesome-4
+version    : 4.7.0
+release    : 1
+source     :
+    - https://fontawesome.com/v4.7.0/assets/font-awesome-4.7.0.zip : 856d4ce3d52a78a2c9e7cc310104838d300b117c7559870346800c4691165fe2
+license    : OFL-1.1
+component  : desktop.font
+summary    : Font Awesome v4 - The iconic font and CSS toolkit
+description: |
+    Font Awesome v4 - The iconic font and CSS toolkit
+install    : |
+    install -Dm00644 fonts/FontAwesome.otf $installdir/usr/share/fonts/opentype/fontawesome-4/FontAwesome.otf
+    install -Dm00644 fonts/fontawesome-webfont.ttf $installdir/usr/share/fonts/truetype/fontawesome-4/fontawesome-4.ttf
